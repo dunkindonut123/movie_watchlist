@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-image: url(icons/header.png);
+    /* color: white; */
+}
+
+
+.search-bar {
+    border: 1px solid gray;
+    display: flex;
+    width: 75%;
+    height: 38px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.search-icon {
+    margin-left: 3px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    width: 70%;
+    border: none;
+}
+
+#search-btn {
+    width: 25%;
+    border: none;
+}
+
+
+@media(min-width: 550px) {
+    body {
+        background-color: yellow;
+    }
+}
