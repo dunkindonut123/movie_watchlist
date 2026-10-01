@@ -34,12 +34,26 @@ input {
     width: 70%;
     border: none;
 }
-
+/* 
 #search-btn {
     width: 25%;
     border: none;
+} */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
+.movie-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+main img {
+    padding-top: 200px;
+}
 
 @media(min-width: 550px) {
     body {
